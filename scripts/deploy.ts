@@ -7,7 +7,7 @@ const main = async () => {
   const networkName = network.name;
 
   // Check if the network is supported.
-  if (networkName === "testnet" || networkName === "mainnet") {
+  if (networkName === "testnet" || networkName === "mainnet" || networkName === "goerli") {
     console.log(`Deploying to ${networkName} network...`);
 
     // Check if the addresses in the config are set.
